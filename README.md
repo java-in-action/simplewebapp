@@ -15,6 +15,8 @@ El objetivo de este proyecto es poder demostrar lo sencillo que es desplegar una
 
 ### Crear la aplicación web
 
+Te recomendamos que crees la aplicación desde cero. Los siguientes pasos automatizan la creación una aplicación Java WEB sencilla y creando un archivo de despliege (WAR), usando un arquetipo de Maven y pasando parametros para no interactuar con la consola. Si quieres saltar a la sección de despliege en AWS, el archivo WAR que utilizarás, lo encontrarás en : /target/**simplewebapp.war** .
+
 1) Abre una consola de comandos y ejecuta el siguiente comando en la carpeta que desees crear la aplicación:
 
 `mvn archetype:generate -DgroupId=talent.fest -DartifactId=simplewebapp -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-webapp -DarchetypeVersion=1.4 -DinteractiveMode=false`
@@ -43,4 +45,4 @@ Veremos un mensaje diciendo:
 **Creando Simplejavaappaws-env**  
 Este proceso tardará unos minutos...
 
-Insertar imagen de resultado
+![Inicio del proceso de despliege]()
