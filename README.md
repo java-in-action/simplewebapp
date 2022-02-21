@@ -49,12 +49,48 @@ Este proceso tardará unos minutos...
 
 ![Inicio del proceso de despliege](/img/creando_app.jpg)
 
-Después de unos minutos (5 aprox.) veremos la salida siguiente:
+Después de unos minutos (5 aprox.) veremos una bandera verde indicando que la aplicación fue desplegada en una plataforma construida automáticamente por AWS, que contiene un Servidor Tomcat. 
 
 ![Aplicación desplegada en Tomcat](/img/app_creada.jpg)
 
 Ahora identifica la liga donde se desplego la aplicación (cuadro en rojo) y dale click, para ver la aplicación desplegada en el servidor de AWS.
 
 ![Página JSP - Hola Mundo!](/img/hello_world_page.jpg)
+
+El tutorial termina en este punto. 
+
+### Ventajas de usar AWS Elastic Beanstalk
+
+A simple vista parece muy sencillo ver la aplicación desplegada, después de haber seleccionado archivo y dado algunos paramétros de entrada. Sin embargo, hay muchos pasos intermedios que no tuvimos que ejecutar, como: crear una máquina virtual que tenga un sistema operativo, descargar e instalar Java, descargar e instalar Tomcat, etc. 
+
+
+Elastic Beanstalk es un servicio de infraestructura como plataforma o IaaS (infraestructure as a service) y no solamente nos permite comenzar fácil y rápido con una aplicación web, también tiene los siguientes beneficios:
+
+* Escalación automática. En caso de necesitar más recursos como memoria o procesador, se puede ajustar a las necesidades; de ahí el concepto de elasticidad. 
+
+* Prevención de desplieges fallidos. Este servicio tiene un control de versiones de los archivos de despliege, en caso de que el archivo contenga errores el proceso de despliege no se completa y se conserva en línea la última versión desplegada con exito del archivo.
+
+* Además tenemos acceso a carácteristicas como: Monitoreo, Logs, Alarmas, etc. 
+
+### Desventajas
+
+Por mecionar algunas desventajas de este entorno, es que no tenemos acceso a la máquina virtual (EC2) donde esta instalado, por lo que para aplicaciones que menejan cuestiones muy especificas que necesiten un control de la máquina, esta opción no es tan recomendable, lo mejor sería crear una EC2 e instalar todo el ambiente. 
+
+La configuración de seguridad es compleja al inicio, se necesitan conocimientos de redes, seguridad informática y de nube para cuestiones más avanzadas, como interacción con otros servicios, bases de datos, permisos, políticas, etc.
+
+## Conclusión
+
+En este ejemplo sencillo hemos desplegado una aplicación web en un servicio de AWS llamado Elastic Beanstalk. Si bien, es un ejemplo sencillo nos ayudará a entender como funcionan los servicios en la nube de AWS y nos podrá servir de base para otros tutoriales más avanzados.
+
+### Referencias
+
+[AWS Elastic Beanstalk - Información General](https://aws.amazon.com/es/elasticbeanstalk/)
+
+[Generate a WAR File in Maven](https://www.baeldung.com/maven-generate-war-file)
+
+[Stack overflow:Generating project in Interactive mode Taking lot of time](stackoverflow.com/questions/17524148/generating-project-in-interactive-mode-taking-lot-of-time)
+
+[Maven Webapp Archetype](https://maven.apache.org/archetypes/maven-archetype-webapp/)
+
 
 
