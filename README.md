@@ -9,7 +9,9 @@ El objetivo de este proyecto es poder demostrar lo sencillo que es desplegar una
 
 [Tener una cuenta de GitHub](https://github.com/). Para descargar el código del ejemplo se necesita tener una cuenta en GitHub.
 
-[Tener instalado y configurado Maven](https://maven.apache.org/index.html). Se utilizará Maven para crear una aplicación Java Web sencilla. En este tutorial omitimos el uso de un IDE (eclipse) por cuestiones prácticas y de rapidez. 
+[Tener instalado Java JDK 1.8 o superior](https://www.oracle.com/java/technologies/downloads/). Configurar las variables de entorno, path y JAVA_HOME.
+
+[Tener instalado y configurado Maven](https://maven.apache.org/install.html). Se utilizará Maven para crear una aplicación Java Web sencilla. En este tutorial omitimos el uso de un IDE (eclipse) por cuestiones prácticas y de rapidez. 
 
 ## Pasos
 
