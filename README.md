@@ -31,9 +31,9 @@ Te recomendamos que crees la aplicación desde cero. Los siguientes pasos automa
 Este comando va a crear un archivo **simplewebapp.war** dentro del directorio /target, el cuál vamos a utilizar más adelante.
 
 
-### Desplegar la aplicación web en AWS
+### Desplegar la aplicación Java Web en AWS Elastic Beanstalk
 
-1) Iniciar sesión en AWS
+1) Iniciar sesión en [AWS Console](https://aws.amazon.com/es/)
 2) Buscar el servicio **Elastic Beanstalk**
 3) clic en **Create Application**
 4) Introducir el nombre de la aplicación: **SimpleJavaAppAWS**
