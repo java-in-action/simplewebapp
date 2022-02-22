@@ -9,26 +9,12 @@ El objetivo de este proyecto es poder demostrar lo sencillo que es desplegar una
 
 [Tener una cuenta de GitHub](https://github.com/). Para descargar el código del ejemplo se necesita tener una cuenta en GitHub.
 
-[Tener instalado Java JDK 1.8 o superior](https://www.oracle.com/java/technologies/downloads/). Configurar las variables de entorno, path y JAVA_HOME.
-
-[Tener instalado y configurado Maven](https://maven.apache.org/install.html). Se utilizará Maven para crear una aplicación Java Web sencilla. En este tutorial omitimos el uso de un IDE (eclipse) por cuestiones prácticas y de rapidez. 
-
 ## Pasos
 
-### Crear la aplicación Java Web: SimpleWebApp
+### Descargar el archivo WAR
 
-Te recomendamos que crees la aplicación desde cero. Los siguientes pasos automatizan la creación una aplicación Java WEB sencilla y creando un archivo de despliegue (WAR), usando un arquetipo de Maven y pasando parámetros para no interactuar con la consola. Si quieres saltar a la sección de despliegue en AWS, el archivo WAR que utilizarás, lo encontrarás en: /target/**simplewebapp.war** .
-
-1) Abre una consola de comandos y ejecuta el siguiente comando en la carpeta que desees crear la aplicación:
-
-`mvn archetype:generate -DgroupId=talent.fest -DartifactId=simplewebapp -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-webapp -DarchetypeVersion=1.4 -DinteractiveMode=false`
-
-
-2) Ve a la carpeta (creada en el paso anterior) simplewebapp, y ejecuta el siguiente comando:
-
-`mvn install`
-
-Este comando va a crear un archivo **simplewebapp.war** dentro del directorio /target, el cuál vamos a utilizar más adelante.
+1) Ir al repositorio de la aplicación: https://github.com/java-in-action/simplewebapp
+2) Descargar el archivo: simplewebapp/target/**simplewebapp.war**, el cual vamos a utilizar en el siguiente paso
 
 
 ### Desplegar la aplicación Java Web en AWS Elastic Beanstalk
@@ -40,8 +26,8 @@ Este comando va a crear un archivo **simplewebapp.war** dentro del directorio /t
 5) En Plataforma seleccionar **Tomcat** y dejar los valores recomendados por defecto
 6) En código de la aplicación seleccionar **Cargar el código**
 7) En Origen del código fuente, clic en **Elegir archivo**
-8) Seleccionar el archivo que creamos en el paso 1, /simplewebapp/target/**simplewebapp.war**
-9) clic en crear una aplicación.
+8) Seleccionar el archivo que descargamos en el paso anterior, **simplewebapp.war**
+9) Clic en crear una aplicación.
 
 ### Salidas esperadas:
 
@@ -101,13 +87,6 @@ En este ejemplo sencillo hemos desplegado una aplicación web en un servicio de 
 ### Referencias
 
 [AWS Elastic Beanstalk - Información General](https://aws.amazon.com/es/elasticbeanstalk/)
-
-[Generate a WAR File in Maven](https://www.baeldung.com/maven-generate-war-file)
-
-
-[Maven Webapp Archetype](https://maven.apache.org/archetypes/maven-archetype-webapp/)
-
-[Stack overflow:Generating project in Interactive mode Taking lot of time](stackoverflow.com/questions/17524148/generating-project-in-interactive-mode-taking-lot-of-time)  
 
 [Free Tier](https://aws.amazon.com/es/free/)
 
