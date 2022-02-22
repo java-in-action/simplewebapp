@@ -1,4 +1,4 @@
-# Despliegue de una aplicación Java en AWS
+# Despliegue de una aplicación Java en AWS Elastic Beanstalck
 
 Este repositorio contiene una aplicación Java EE sencilla que será desplegada dentro de un servicio de AWS, que nos permitirá crear un proceso de despliegue automatizado en pocos pasos.
 
@@ -61,6 +61,20 @@ Ahora identifica la liga donde se desplego la aplicación (cuadro en rojo) y dal
 
 El tutorial termina en este punto. 
 
+### Eliminar la aplicación
+
+AWS te permite usar sus servicios en un modelo llamado "Free Tier", el cual nos permite usarlos por un tiempo para aprender y probarlos. Llegado el límite del consumo, dependiendo del servicio, te empezara a cobrar a tu tarjeta de crédito.
+
+Es por eso que al termino de este tutorial, les recomendamos eliminar la aplicación desplegada en Amplify para no incurrir en costos.
+
+1) Abrir Elastic Beanstalk
+2) Seleccionar la aplicación: SiompleJavaWebAppAWS
+3) Clic en el botón Acciones > Terminar el entorno 
+![Eliminar el app al final de este tutorial](/img/delete_app.jpg)
+Nota: Esperamos a que termine de terminar el proceso. El cual va a detener la aplicación y así podremos eliminarla por completo.
+4) Una vez terminado el proceso de terminación. Seleccionamos la aplicación y damos clic en Accioones > Eliminar app.
+
+
 ### Ventajas de usar AWS Elastic Beanstalk
 
 A simple vista parece muy sencillo ver la aplicación desplegada, después de haber seleccionado archivo y dado algunos parámetros de entrada. Sin embargo, hay muchos pasos intermedios que no tuvimos que ejecutar, como: crear una máquina virtual que tenga un sistema operativo, descargar e instalar Java, descargar e instalar Tomcat, etc. 
@@ -93,7 +107,9 @@ En este ejemplo sencillo hemos desplegado una aplicación web en un servicio de 
 
 [Maven Webapp Archetype](https://maven.apache.org/archetypes/maven-archetype-webapp/)
 
-[Stack overflow:Generating project in Interactive mode Taking lot of time](stackoverflow.com/questions/17524148/generating-project-in-interactive-mode-taking-lot-of-time)
+[Stack overflow:Generating project in Interactive mode Taking lot of time](stackoverflow.com/questions/17524148/generating-project-in-interactive-mode-taking-lot-of-time)  
+
+[Free Tier](https://aws.amazon.com/es/free/)
 
 
 
