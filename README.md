@@ -1,14 +1,14 @@
 # Despliegue de una aplicación Java en AWS Elastic Beanstalk
 
-En este tutorial vamos a usar un repositorio en GiHub que contiene una aplicación Java J2EE (archivo WAR) que será desplegada dentro de la nube de AWS usando un servicio llamado Elastic Beanstalk, el cuál nos permitirá desplegar la aplicación automáticamente. 
+En este tutorial vamos a usar un repositorio en GitHub que contiene una aplicación Java J2EE (archivo WAR) que será desplegada dentro de la nube de AWS usando un servicio llamado Elastic Beanstalk, el cual nos permitirá desplegar la aplicación automáticamente. 
 
-El objetivo de este proyecto es poder demostrar lo sencillo que es desplegar una aplicación Java Web en la infraestructura en la nube de AWS. Sin embargo, analizaremos todo lo que el servicio hace por detrás, cuestiones de configuración y hablaremos acerca de la integración con otros servicvios.
+El objetivo de este proyecto es poder demostrar lo sencillo que es desplegar una aplicación Java Web en la infraestructura en la nube de AWS. Sin embargo, analizaremos todo lo que el servicio hace por detrás, cuestiones de configuración y hablaremos acerca de la integración con otros servicios.
 
 ## Prerrequisitos
 
-[Contar con una cuenta de AWS](https://aws.amazon.com/es/). En el proceso de crear una cuenta se solicita una tarjeta de crédito, pero no vamos a incurrir en costos para el demo ya que solo vamos a usar unas horas gratuitas de las permitidas por AWS y después eliminar el demo.
+[Contar con una cuenta de AWS](https://aws.amazon.com/es/). Para crear una cuenta les va a solicitar un número de tarjeta de crédito, pero no vamos a incurrir en gastos por que vamos a usar el “Free Tier” de AWS y al final vamos a eliminar el demo.
 
-[Tener una cuenta de GitHub](https://github.com/). Para descargar el código del ejemplo se necesita tener una cuenta en GitHub.
+[Tener una cuenta de GitHub](https://github.com/). Para poder hacer fork del proyecto y descargar el archivo WAR..
 
 Conocimientos de JAVA J2EE, Despliegue con Tomcat y AWS Básico.
 
@@ -53,6 +53,11 @@ Ahora identifica la liga donde se desplego la aplicación (cuadro en rojo) y dal
 
 El tutorial termina en este punto. 
 
+### ¿Cómo AWS Elastic Beanstalk cobra el consumo del servicio?
+No se aplican cargos adicionales por utilizar AWS Elastic Beanstalk. Solo tiene que pagar por los recursos de AWS (por ejemplo, instancias EC2 o buckets de S3) creados para almacenar y ejecutar la aplicación.
+
+El costo de ejecutar un sitio web mediante Elastic Beanstalk puede variar según distintos factores, como el número de instancias de Amazon EC2 necesarias para administrar el tráfico del sitio web, el ancho de banda consumido por la aplicación y qué base de datos u opciones de almacenamiento usa la aplicación. El principal costo para una aplicación web normalmente será para las instancias de Amazon EC2 y para el Elastic Load Balancing que distribuye el tráfico entre las instancias que ejecutan la aplicación.
+
 ### Eliminar la aplicación
 
 AWS te permite usar sus servicios en un modelo llamado "Free Tier", el cual nos permite usarlos por un tiempo para aprender y probarlos. Llegado el límite del consumo, dependiendo del servicio, te empezara a cobrar a tu tarjeta de crédito.
@@ -94,7 +99,7 @@ En este ejemplo sencillo hemos desplegado una aplicación web en un servicio de 
 
 [AWS Elastic Beanstalk - Información General](https://aws.amazon.com/es/elasticbeanstalk/)
 
-[Free Tier](https://aws.amazon.com/es/free/)
+[Precios de AWS Elastic Beanstalk](https://aws.amazon.com/es/elasticbeanstalk/pricing/)
 
 
 
