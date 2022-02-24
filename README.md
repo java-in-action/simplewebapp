@@ -1,8 +1,8 @@
 # Despliegue de una aplicación Java en AWS Elastic Beanstalk
 
-Este repositorio contiene una aplicación Java EE sencilla que será desplegada dentro de un servicio de AWS, que nos permitirá crear un proceso de despliegue automatizado en pocos pasos.
+En este tutorial vamos a usar un repositorio en GiHub que contiene una aplicación Java J2EE (archivo WAR) que será desplegada dentro de la nube de AWS usando un servicio llamado Elastic Beanstalk, el cuál nos permitirá desplegar la aplicación automáticamente. 
 
-El objetivo de este proyecto es poder demostrar lo sencillo que es desplegar una aplicación Java Web en la infraestructura en la nube de AWS. Sin embargo, para un desarrollador que no está acostumbrado a crear infraestructura de software, puede ser un reto. 
+El objetivo de este proyecto es poder demostrar lo sencillo que es desplegar una aplicación Java Web en la infraestructura en la nube de AWS. Sin embargo, analizaremos todo lo que el servicio hace por detrás, cuestiones de configuración y hablaremos acerca de la integración con otros servicvios.
 
 ## Prerrequisitos
 
