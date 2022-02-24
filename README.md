@@ -1,13 +1,16 @@
-# Despliegue de una aplicación Java en AWS Elastic Beanstalck
+# Despliegue de una aplicación Java en AWS Elastic Beanstalk
 
 Este repositorio contiene una aplicación Java EE sencilla que será desplegada dentro de un servicio de AWS, que nos permitirá crear un proceso de despliegue automatizado en pocos pasos.
 
 El objetivo de este proyecto es poder demostrar lo sencillo que es desplegar una aplicación Java Web en la infraestructura en la nube de AWS. Sin embargo, para un desarrollador que no está acostumbrado a crear infraestructura de software, puede ser un reto. 
 
 ## Prerrequisitos
+
 [Contar con una cuenta de AWS](https://aws.amazon.com/es/). En el proceso de crear una cuenta se solicita una tarjeta de crédito, pero no vamos a incurrir en costos para el demo ya que solo vamos a usar unas horas gratuitas de las permitidas por AWS y después eliminar el demo.
 
 [Tener una cuenta de GitHub](https://github.com/). Para descargar el código del ejemplo se necesita tener una cuenta en GitHub.
+
+Conocimientos de JAVA J2EE, Despliegue con Tomcat y AWS Básico.
 
 ## Pasos
 
