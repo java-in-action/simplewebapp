@@ -62,7 +62,7 @@ El costo de ejecutar un sitio web mediante Elastic Beanstalk puede variar según
 
 Para evitar cargos más adelante, procedemos a terminar el ambiente y eliminar la aplicación. AWS permite usar sus servicios por un periodo de prueba "Free Tier" o por cierto límite de consumo, cuando nos acercamos a ese punto (85% aprox) recibiremos un correo anunciando que estamos por llegar al límite gratuito y nos empezarán a cobrar el consumo. Es decir mientras no lleguemos a ese límite podemos usar los serivios para aprender y practicas.
 
-Una practica recomendada es detener o eliminar los servicios cuando no se estén utilizando. También se pueden poner alarmas para avisar cuando se llegué a un punto determinado o crear tareas automatizadas para iniciar y detener ciertos servicios, estos temas están fuera del alcance de este tutorial pero se recomienda que conozcan más al respecto.
+Una practica recomendada es detener los servicios cuando no se estén utilizando o eliminarlos definitivamente. También se pueden poner alarmas para avisar cuando se llegué a un punto determinado o crear tareas automatizadas para iniciar y detener ciertos servicios, estos temas están fuera del alcance de este tutorial pero se recomienda que conozcan más al respecto.
 
 1) Abrir Elastic Beanstalk
 2) Seleccionar la aplicación: SiompleJavaWebAppAWS
