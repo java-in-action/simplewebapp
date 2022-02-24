@@ -21,12 +21,15 @@ El objetivo de este proyecto es poder demostrar lo sencillo que es desplegar una
 
 1) Iniciar sesión en [AWS Console](https://aws.amazon.com/es/)
 2) Buscar el servicio **Elastic Beanstalk**
-3) clic en **Create Application**
-4) Introducir el nombre de la aplicación: **SimpleJavaAppAWS**
-5) En Plataforma seleccionar **Tomcat** y dejar los valores recomendados por defecto
-6) En código de la aplicación seleccionar **Cargar el código**
-7) En Origen del código fuente, clic en **Elegir archivo**
-8) Seleccionar el archivo que descargamos en el paso anterior, **simplewebapp.war**
+3) Dar clic en **Create Application** 
+![Crear aplicación](/img/create_app.jpg)
+4) Introducir la información de la aplicación, primero el nombre de la aplicación: **SimpleJavaAppAWS**  
+![Nombre de la aplicación](/img/nombre_app.jpg)  
+5) Introducir los datos de la Plataforma, seleccionar **Tomcat** y dejar los valores recomendados por defecto  
+![Nombre de la aplicación](/img/datos_plataforma.jpg)
+6) En código de la aplicación seleccionar **Cargar el código**  
+![Cargar código](/img/cargar_codigo.jpg)
+8) Buscar archivo que descargamos en el paso anterior, **simplewebapp.war**
 9) Clic en crear una aplicación.
 
 ### Salidas esperadas:
