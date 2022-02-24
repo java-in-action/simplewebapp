@@ -60,9 +60,9 @@ El costo de ejecutar un sitio web mediante Elastic Beanstalk puede variar según
 
 ### Eliminar la aplicación
 
-AWS te permite usar sus servicios en un modelo llamado "Free Tier", el cual nos permite usarlos por un tiempo para aprender y probarlos. Llegado el límite del consumo, dependiendo del servicio, te empezara a cobrar a tu tarjeta de crédito.
+Para evitar cargos más adelante, procedemos a terminar el ambiente y eliminar la aplicación. AWS permite usar sus servicios por un periodo de prueba "Free Tier" o por cierto límite de consumo, cuando nos acercamos a ese punto (85% aprox) recibiremos un correo anunciando que estamos por llegar al límite gratuito y nos empezarán a cobrar el consumo. Es decir mientras no lleguemos a ese límite podemos usar los serivios para aprender y practicas.
 
-Es por eso que al termino de este tutorial, les recomendamos eliminar la aplicación desplegada en Amplify para no incurrir en costos.
+Una practica recomendada es detener o eliminar los servicios cuando no se estén utilizando. También se pueden poner alarmas para avisar cuando se llegué a un punto determinado o crear tareas automatizadas para iniciar y detener ciertos servicios, estos temas están fuera del alcance de este tutorial pero se recomienda que conozcan más al respecto.
 
 1) Abrir Elastic Beanstalk
 2) Seleccionar la aplicación: SiompleJavaWebAppAWS
