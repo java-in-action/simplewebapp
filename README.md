@@ -101,5 +101,6 @@ En este ejemplo sencillo hemos desplegado una aplicación web en un servicio de 
 
 [Precios de AWS Elastic Beanstalk](https://aws.amazon.com/es/elasticbeanstalk/pricing/)
 
+[Preguntas frecuentes](https://aws.amazon.com/es/elasticbeanstalk/faqs/)
 
 
